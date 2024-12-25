@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="FuriganaTextView">
+        <attr name="lineSpacing" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="CustomMaterialToolbar">
+        <!-- Title attributes -->
+        <attr name="titleCentered" format="boolean" />
+        <attr name="titleStartMargin" format="dimension" />
+        <attr name="titleEndMargin" format="dimension" />
+        <attr name="titleTextSize" format="dimension" />
+        <attr name="minTitleTextSize" format="dimension" />
+        <attr name="titleMaxLines" format="integer" />
+
+        <!-- Right content attributes -->
+        <attr name="rightIcon" format="reference" />
+        <attr name="rightText" format="string" />
+        <attr name="rightTextAppearance" format="reference" />
+    </declare-styleable>
+</resources>

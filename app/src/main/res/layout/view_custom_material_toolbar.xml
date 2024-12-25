@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    tools:parentTag="com.google.android.material.appbar.MaterialToolbar">
+
+    <TextView
+        android:id="@+id/toolbarTitleText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:maxLines="2"
+        tools:text="Heading" />
+
+    <ImageView
+        android:id="@+id/toolbarMenu"
+        android:layout_width="@dimen/toolbar_icon_size"
+        android:layout_height="@dimen/toolbar_icon_size"
+        android:layout_gravity="end|center_vertical"
+        android:layout_marginEnd="@dimen/toolbar_content_margin"
+        android:src="@drawable/ic_more_horiz"
+        android:background="?attr/selectableItemBackgroundBorderless"
+        tools:ignore="ContentDescription" />
+
+</merge>
