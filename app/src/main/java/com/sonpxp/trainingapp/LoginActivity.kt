@@ -158,5 +158,6 @@ class LoginActivity : AppCompatActivity() {
 
     private fun updateApp(successMsg: String) {
         binding.success.text = successMsg
+        startActivity(Intent(this, MainActivity::class.java))
     }
 }
